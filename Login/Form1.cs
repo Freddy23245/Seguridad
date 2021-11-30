@@ -34,11 +34,15 @@ namespace Login
                         Aca primero se ejecutaria el procedimiento almacenado SP_ingreso_usuario
                      */
 
+
+
+
                     if (cache_usuario.habilitado==0)
                     {
                         MessageBox.Show("Usuario Bloqueado");
                     }else
                     {
+                        log2.ingreso_usuario(cache_usuario.usuario);
                          MessageBox.Show("Bienvenido" + cache_usuario.nombre);
                                             Inicio ini = new Inicio();
                                             ini.Show();
@@ -69,7 +73,7 @@ namespace Login
             
             //-------------
 
-                MessageBox.Show("EL Cambio PAra GITHUB");
+             
 
 
         }

@@ -163,24 +163,44 @@ namespace Capa_Datos
                 }
 
 
+           }
+
+
+       }
 
 
 
 
 
 
+       public void ingreso_usuario(string usuario)
+       {
+           using (var conection = GetConnection())
+           {
+
+               conection.Open();
+
+               using (var cmd = new SqlCommand())
+               {
+
+                   cmd.Connection = conection;
+                   cmd.CommandText = "SP_ingreso_usuario";
+                   cmd.CommandType = CommandType.StoredProcedure;
+
+                   cmd.Parameters.AddWithValue("@usuario", usuario);
+                   
+                   cmd.ExecuteNonQuery();
 
 
 
 
-
+               }
 
 
            }
 
 
        }
-
 
 
 

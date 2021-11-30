@@ -30,5 +30,12 @@ namespace Capa_Dominio
         {
             log.intento_pass(usuario,pass);
         }
+
+        public void ingreso_usuario(string usuario)
+        {
+            log.ingreso_usuario(usuario);
+        }
+
+
     }
 }
