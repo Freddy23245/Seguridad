@@ -17,3 +17,6 @@ C:\Users\Cristian\Desktop\Curso C# AD\Seguridad\Login\bin\Debug\Capa_Datos.pdb
 C:\Users\Cristian\Desktop\Curso C# AD\Seguridad\Login\obj\Debug\Login.Clientes.resources
 C:\Users\Cristian\Desktop\Curso C# AD\Seguridad\Login\obj\Debug\Login.Productos.resources
 C:\Users\Cristian\Desktop\Curso C# AD\Seguridad\Login\obj\Debug\Login.Ventas.resources
+C:\Users\Cristian\Desktop\Proyectos de Desarrollo\C#.NET\Seguridad\Login\bin\Debug\Login.exe.config
+C:\Users\Cristian\Desktop\Proyectos de Desarrollo\C#.NET\Seguridad\Login\obj\Debug\Login.exe
+C:\Users\Cristian\Desktop\Proyectos de Desarrollo\C#.NET\Seguridad\Login\obj\Debug\Login.pdb
